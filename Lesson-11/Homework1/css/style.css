@@ -1,0 +1,61 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.3;
+	background: #fff;
+	min-width: 800px;
+}
+.form-1 {
+	width: 300px;
+	height: 270px;
+    margin: 60px auto 30px;
+    padding: 10px;
+    position: relative;
+
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+h3 {
+	text-align: center;
+	color: #455b68;
+}
+ 
+.form-1 .field {
+    position: relative;
+}
+
+/* .:before {
+	content: "\f2bd";
+	font-family: 'icomoon';
+} */
+
+input {
+	background: #ffffff;
+	width: 295px;
+    height: 40px;
+}
+button {
+    width: 297px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background: #22b8c7;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+a {
+    margin-left: 100px;
+	color: #2d2e2e;
+	text-decoration: none;
+}
+a:after {
+	content: "\f178";
+	font-family: 'icomoon';
+	padding: 0px 0px 0 15px;
+}
