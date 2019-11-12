@@ -1,0 +1,57 @@
+body {
+    verdana (font-family: verdana, sans-serif);
+}
+
+.container {
+    width: 986px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #03a7d4;
+    padding: 11px 20px 11px 20px;
+}
+
+li {
+    border-right: 2px solid #fff;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;s
+    font-weight: normal;
+    padding: 0 40px 0px 0;
+}
+
+aside {
+    float: left;
+    width: 271px;
+    height: 900px;
+    color: rgb(22, 24, 24);
+}
+
+main {
+    float: right;
+    width: 691px;
+}
+
+.section img {
+    float: left;
+    margin: 0 10px 0 0;
+    height: 100px;
+}
+
+.item img {
+    float: left;
+}
+
+.inter {
+    float: right;
+    height: 148px;
+    width: 482px;
+}
+
+.footer {
+    margin-top: 100%;
+    border-top: dashed rgb(187, 182, 182);
+    padding: 0 0 0 15px;
+
+}
