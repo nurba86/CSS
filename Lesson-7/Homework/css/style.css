@@ -1,0 +1,233 @@
+<<<<<<< HEAD
+.container {
+    background: #474747;
+    float: center;
+    width: 422px;
+    height: 322px;
+    display: inline-grid;
+    padding: 10px 0px 0px 18px;
+}
+
+button {
+    background: #0d81d9;
+    border-radius: 25px;
+}
+
+.apple a {
+    text-decoration: none;
+    line-height: 33px;
+    color: aliceblue;
+}
+
+.apple button {
+    color: #ffffff;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 20px;
+    border-radius: 100px;
+    border-width: 3px 10px;
+    outline: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6);
+    transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+    background: -webkit-linear-gradient(top, #289bf4 0%,#1083dc 50%,#0578d1);
+}
+
+.click button {
+    background: #d85653;
+    width: 155px;
+    height: 55px;
+    border: 0px solid #0673b8;
+    display: inline-block;
+    text-decoration: none;
+    color: #b42825;
+    border-radius: 3px;
+    box-shadow: 4px 9px 30px 0px rgba(63, 146, 160, 0.64);
+}
+
+.face a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 0 33px;
+    line-height: 50px;
+}
+
+.face img {
+    background: aliceblue;
+}
+
+.face button {
+    background: #2f2f2f;
+    border-radius: 7px;
+    border: none;
+    width: 165px;
+    height: 48px;
+}
+
+.home button {
+    width: 200px;
+    height: 60px;
+    border: 0px solid #0673b8;
+    display: inline-block;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 2px 5px 7px 2px rgba(17, 16, 17, 0.65);
+    text-shadow: 4px 4px 15px rgba(150, 150, 150, 1);
+    /* width: 176px;
+    height: 47px;
+    padding: 0 0 0 74px;
+    border-radius: 5px;
+    background: #3257bc;
+    color: #ffffff;
+    border: none; */
+}
+
+.see button {
+    font-size: 35px;
+    background: #0673b8;
+    padding: 0 30px 0 30px;
+    color: #ffffff;
+    border: none;
+    height: 60px;
+    border: 1px solid #0673b8;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 45px;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.6);
+    text-shadow: -1px -1px 2px rgba(0, 0, 0, 1);
+    background: -webkit-linear-gradient(top, #1a88cf 0%,#2989d8 50%,#066bab 51%,#1884c9 100%);
+}
+
+.see img {
+    padding: 0 0 0px 15px;
+}
+
+.book {
+    margin-left: 30px;
+}
+=======
+  body {
+  arial (font-family: arial, sans-serif)
+}
+.container {
+    background: #515151;
+    width: 522px;
+    height: 422px;
+    display: inline-grid;
+    padding: 28px 0 0 19px;
+}
+
+.btn-add{
+    background: #2699f2 url(../img/apple.png) 11px 11px no-repeat;
+    padding: 0 30px 0 10px;
+    width: 120px;
+    height: 37px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 2px 3px #666;
+    font-size: 15px;
+    line-height: 32px;
+    border-radius: 18px;
+}
+
+.btn-add:active{
+   background-color: #006eb5;
+}
+
+.btn-click{
+    background: #dc5e5b;
+    padding: 0 49px 0 20px;
+    width: 135px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    color: #b42825;
+    font-size: 15px;
+    line-height: 32px;
+    border-radius: 3px;
+}
+
+.btn-facebook{
+    background: #373737 url(../img/facebook.png) 1px 1px no-repeat;
+    padding: 32px 16px 13px 0;
+    width: 122px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px #666;
+    font-size: 13px;
+    line-height: 29px;
+    border-radius: 5px;
+}
+
+.btn-home{
+    border:0;
+    background: #006eb5 url(../img/home.png) 144px 18px no-repeat;
+    padding: 0 30px 0 10px;
+    width: 174px;
+    height: 56px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 43px;
+    border-radius: 5px;
+    box-shadow: 0 -3px 0 #25418d  inset;
+}
+.btn-home:hover{
+    background-color: #006eb5;
+}
+
+.btn-home:active{
+    background-color: #de62ce;
+}
+
+
+
+.btn-watch{
+    background: #3376f1 url(../img/arrow.png) 251px 19px no-repeat;
+    width: 300px;
+    height: 62px;
+    line-height: 25px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 6px 20px 5px #0785b5;
+  }
+
+
+.button{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    width: 115px;
+    height: 47px;
+    margin: 0px;
+    font-size: 25px;
+    line-height: 2;
+    padding: -0.2px 1em calc(4.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 3px -3px 0px 0px rgb(53,167,110);
+}
+
+.button:hover { background: rgb(53, 167, 110);
+}
+.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+>>>>>>> master
